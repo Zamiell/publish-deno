@@ -89,7 +89,7 @@ def check_compile():
 def get_version_from_version_ts():
     with open(VERSION_TS_PATH, "r") as file_handle:
         version_ts = file_handle.read().strip()
-    match = re.search(r"export const VERSION = (.+\..+\..+)", version_ts)
+    match = re.search(r'export const VERSION = "(.+\..+\..+)";', version_ts)
     if not match:
         error('Failed to parse the version number from "{}".'.format(VERSION_TS_PATH))
 
@@ -97,6 +97,7 @@ def get_version_from_version_ts():
 
 
 def increment_version(version: str):
+    print(version)
     match = re.search(r"(.+\..+\.)(.+)", version)
     if not match:
         error('Failed to parse the version number of "{}".'.format(version))
