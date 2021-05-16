@@ -1,0 +1,18 @@
+{
+    "version": "0.1",
+    "language": "en",
+    "dictionaries": [
+        "en_US"
+    ],
+    "words": [
+        "config",
+        "deno",
+        "eslint",
+        "isaacscript",
+        "pass",
+        "printf",
+        "pypi",
+        "untracked",
+        "zamiell"
+    ]
+}
