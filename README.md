@@ -1,13 +1,13 @@
-# publish-npm
+# publish-deno
 
-This is a script to publish the Node project in the current directory to NPM.
+This is a script to publish the Deno project in the current directory.
 
 <br />
 
 ## Usage
 
 ```
-pip install --upgrade publish-npm
-cd [DIR_OF_NPM_PROJECT]
-publish-npm
+pip install --upgrade publish-deno
+cd [DIR_OF_DENO_PROJECT]
+publish-deno
 ```
